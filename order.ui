@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Order</class>
+ <widget class="QWidget" name="Order">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: #1d1e33;
+color: #ffffff;
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

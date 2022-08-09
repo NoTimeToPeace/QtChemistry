@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QWidget" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="10,0,90">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="90,10">
+     <item>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="font">
+        <font>
+         <pointsize>30</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(240, 244, 255);
+border: 2px solid #1d1e33;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_2{
+background-color: #1d1e33;
+color: #ffffff;
+font-family: 'GOST type A';
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;
+}</string>
+       </property>
+       <property name="text">
+        <string>Поиск</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="90,10">
+     <item>
+      <widget class="QListView" name="listView">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(240, 244, 255);
+border: 2px solid #1d1e33;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="28,28,28">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton{
+background-color: #1d1e33;
+color: #ffffff;
+font-family: 'GOST type A';
+border: 1px solid  #1d1e33;
+/*border-radius: 25px;*/
+font-size: 16px+1vw;
+}</string>
+         </property>
+         <property name="text">
+          <string>Корзина</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_3{
+background-color: #1d1e33;
+color: #ffffff;
+font-family: 'GOST type A';
+border: 1px solid  #1d1e33;
+/*border-radius: 25px;*/
+font-size: 16px+1vw;
+}</string>
+         </property>
+         <property name="text">
+          <string>Заказы</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_4{
+background-color: #1d1e33;
+color: #ffffff;
+font-family: 'GOST type A';
+border: 1px solid  #1d1e33;
+/*border-radius: 25px;*/
+font-size: 16px+1vw;
+}</string>
+         </property>
+         <property name="text">
+          <string>Аналитика</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

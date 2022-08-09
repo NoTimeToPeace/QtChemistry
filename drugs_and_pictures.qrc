@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/drugs">
+        <file>photo/differin.jpg</file>
+        <file>photo/irineks.jpeg</file>
+        <file>photo/bronxipret.jpeg</file>
+        <file>photo/viagra.jpeg</file>
+        <file>photo/saksenda.jpeg</file>
+        <file>photo/ygol.jpeg</file>
+    </qresource>
+</RCC>

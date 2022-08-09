@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Basket</class>
+ <widget class="QWidget" name="Basket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>756</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #1d1e33;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+          <underline>true</underline>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px solid #1d1e33;</string>
+        </property>
+        <property name="text">
+         <string>Пункт выдачи</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="styleSheet">
+         <string notr="true">border: 0px solid #1d1e33;</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,95">
+         <item>
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="styleSheet">
+         <string notr="true">border: 0px solid #1d1e33;</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,95">
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: #1d1e33;
+color: #ffffff;
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;</string>
+     </property>
+     <property name="text">
+      <string>Заказать</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="styleSheet">
+      <string notr="true">border: 0px solid  #1d1e33;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="85,15">
+      <item>
+       <widget class="QTableView" name="tableView">
+        <property name="styleSheet">
+         <string notr="true">border: 0px solid #1d1e33;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="styleSheet">
+         <string notr="true">border: 0px solid  #1d1e33;</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: #1d1e33;
+color: #ffffff;
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;</string>
+           </property>
+           <property name="text">
+            <string>Назад</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="styleSheet">
+            <string notr="true">background-color: #1d1e33;
+color: #ffffff;
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;</string>
+           </property>
+           <property name="text">
+            <string>Уменьшить кол-во штук</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: #1d1e33;
+color: #ffffff;
+border: 1px solid  #1d1e33;
+border-radius: 25px;
+font-size: 20px+1vw;</string>
+           </property>
+           <property name="text">
+            <string>Удалить выбранное</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_6">
+           <property name="styleSheet">
+            <string notr="true">border: 2px solid #1d1e33;</string>
+           </property>
+           <property name="title">
+            <string/>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QGroupBox" name="groupBox_7">
+              <property name="styleSheet">
+               <string notr="true">border: 0px solid #1d1e33;</string>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="font">
+                  <font>
+                   <pointsize>15</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Кол-во товаров:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="font">
+                  <font>
+                   <pointsize>15</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_8">
+              <property name="styleSheet">
+               <string notr="true">border: 0px solid #1d1e33;</string>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="font">
+                  <font>
+                   <pointsize>15</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border: 0px solid #1d1e33;</string>
+                 </property>
+                 <property name="text">
+                  <string>Сумма покупки:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_6">
+                 <property name="font">
+                  <font>
+                   <pointsize>15</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border: 0px solid #1d1e33;</string>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
